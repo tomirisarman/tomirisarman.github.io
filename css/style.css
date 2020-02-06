@@ -1,0 +1,233 @@
+body{
+  background-color: #0c2333;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.shapka{
+  width: 100%;
+  height: 50vw;;
+  position: absolute;
+  background-image: url(../images/milkyway.jpg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 50%;
+  #3b429f
+}
+nav{
+  background-color: #1c2743;
+}
+.navbar-brand img{
+  width: 70%;
+}
+.nav-item{
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-item:hover{
+  background-color: #83c5be;
+}
+
+.nav-link{
+  color: #7bf1a8;
+}
+.nav-link:hover{
+  color: white;
+}
+.navbar-toggler-icon{
+  background-image: url(../images/hamburger_white.png);
+}
+.btn{
+  background-color: #7bf1a8;
+  border-color: white;
+}
+.btn:hover, .btn:active{
+  background-color: #0c2333;
+}
+#1c2743
+h1{
+  color: #7bf1a8;
+  align-content: center;
+  font-size: 64px;
+  cursor: pointer;
+}
+.welcome{
+  margin-top: 70px;
+  #outline: 1px solid blue;
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.me{
+  align-content: center;
+  margin-top: 50px;
+  #outline: 1px solid red;
+}
+.me::before{
+  content:'';
+  position: absolute;
+  border: 1px solid white;
+  left: 11%;
+  right: 11%;
+  top: -1%;
+  bottom: -1%;
+  border-radius: 50%;
+  border-width: 30px;
+  opacity: 50%;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 50%;
+    transform: scale(1.2);
+  }
+  100%{
+    opacity: 0;
+    transform: scale(1.2);
+  }
+
+}
+
+#man{
+  border-radius: 50%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+man:hover{
+  animation-name: zoomy;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoomy{
+  50% {width: 100%;}
+  100% {width: 80%}
+}
+.deck{
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+.info{
+  background-color: white;
+}
+.info .card-body .row{
+  padding: 7px;
+}
+
+
+.skill-card{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding: 1vw;
+  color: white;
+}
+.skill-card h1{
+  text-align: center;
+}
+.skillbox{
+  margin-top: 10px;
+  padding: 1px;;
+}
+.skillbox.p{
+  position: absolute;
+  float: left;
+}
+
+.skill{
+  z-index: -10;
+  width:100%;
+  height: 1em;
+  box-sizing: border-box;
+  border: 2px solid #60ab9a;
+  border-radius: 10px;
+}
+.skill-level{
+  background-color: #70c2b4;
+  width: 0;
+  height: 100%;
+  padding:1px;
+
+}
+.todo{
+  color: white;
+  margin-top: 50px;
+}
+.webdev, .android, .desktop{
+  width:100%;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 5%;
+  margin-top: 10px;
+  margin-left: 5vw;
+  margin-right: 30px;
+  box-shadow: 5px 10px 8px black;
+  text-align: center;
+  font-size: 30px;
+  position: static;
+}
+.webdev:hover, .android:hover, .desktop:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.webdev p, .android p, .desktop p{
+  margin-top: 100px;
+}
+.webdev{
+  background-image: url(../images/webdev.jpg);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+
+}
+.android{
+  background-image: url(../images/android.jpg);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.desktop{
+  background-image: url(../images/desktop.jpg);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.cont{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    padding: 0;
+
+}
+
+.fullscreen-bg__video {
+    width: 100%;
+
+}
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 10vh;
+    margin-top: 15%;
+}
+.overlay {
+    bbbackground: rgba(0,0,0,0.1);
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+}
