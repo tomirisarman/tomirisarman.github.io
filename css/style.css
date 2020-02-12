@@ -219,11 +219,11 @@ man:hover{
     width: 100%;
 
 }
-.overlay h1 {
+.overlay p {
     text-align:center;
     color:#fff;
-    font-size: 10vh;
-    margin-top: 15%;
+    font-size: 10vw;
+    margin-top: 20%;
 }
 .overlay {
     bbbackground: rgba(0,0,0,0.1);
