@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="script.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+      <div class="head">
+          <div class="me">
+            <img src="images/fotka.jpg" alt="" class="ps" id="myself">
+          </div>
+        <div class="info">
+          <h1>Привет! Это я,</h1>
+          <h1>Томирис Арман</h1>
+          <p>Back-end разработчик</p>
+          <input type="button" name="" value="Скачать резюме">
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="topnav" id="myTopnav">
+          <div class="item"><a href="#">Обо мне</a></div>
+          <div class="item"><a href="#">Навыки</a></div>
+          <div class="item"><a href="#">Способности</a></div>
+          <div class="item"><a href="#">Интересные факты</a></div>
+          <div class="item"><a href="#">Проекты</a></div>
+          <div class="item"><a href="#">Контакты</a></div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="mytext">
+          <h1 style="text-align: center;">Обо мне</h1>
+          <p>Я учусь на третьем курсе в КНР. Специальность - компьютерные науки. Моя голова забита кодом, формулами и иероглифами.<br><br>
+            В школе очень любила математику, черчение и рогалики с шоколадом. За их поедание аким вручил мне медаль после окончания.<br><br>
+            Специализируюсь на back-end — люблю строить логические связи, у меня хорошее чувство структуры. С дизайном дела не так хороши, как видите.<br><br>
+            Обычно ем киви ложкой и очень люблю собак. Катаюсь на коньках, плаваю кролем, хожу в зал, а вот на лыжах часто падаю лицом в сугробы.
+          </p>
+        </div>
+        <div class="meagain">
+          <img src="images/meme.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="myskills">
+        <div class="pic">
+<!--          <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">-->
+        </div>
+        <div class="skill-card">
+          <h1 style="font-size: 50px;">Навыки</h1>
+          <div class="skillbox"  data-percent="98%">
+            <p>HTML/CSS3</p>
+            <div class="skill">
+              <div class="skill-level"></div>
+            </div>
+          </div>
+          <div class="skillbox"  data-percent="65%">
+            <p>JavaScript</p>
+            <div class="skill">
+              <div class="skill-level"></div>
+            </div>
+          </div>
+          <div class="skillbox"  data-percent="70%">
+            <p>PHP</p>
+            <div class="skill">
+              <div class="skill-level"></div>
+            </div>
+          </div>
+          <div class="skillbox"  data-percent="90%">
+            <p>MySQL</p>
+            <div class="skill">
+              <div class="skill-level"></div>
+            </div>
+          </div>
+          <div class="skillbox"  data-percent="80%">
+            <p>Python</p>
+            <div class="skill">
+              <div class="skill-level"></div>
+            </div>
+          </div>
+          <div class="skillbox"  data-percent="90%">
+            <p>C/C++</p>
+            <div class="skill">
+              <div class="skill-level"></div>
+            </div>
+          </div>
+          <div class="skillbox"  data-percent="50%">
+            <p>Java</p>
+            <div class="skill">
+              <div class="skill-level"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="wrapper">
+<br>
+<h1 style="text-align: center; color: white; font-size: 50px; padding: 5px;">Способности</h1>
+
+
+<div class="slide-box">
+  <div class="slider">
+    <div class="simage">
+      <img src="images/black.jpg" alt="" id="slideImg">
+    </div>
+    <div class="stext">
+      Уверенно разрабатываю сайты - как front-end (наружность сайта), так и back-end (логика сайта).
+    </div>
+  </div>
+
+  <div class="slider">
+    <div class="simage">
+      <img src="images/adaptive.jpg" alt="" id="slideImg">
+    </div>
+    <div class="stext">
+      Для front-end нужны HTML+CSS+JS. Так же для адаптации под мобильные устройства использую Flexbox, Grid CSS, Bootstrap framework. Адаптивность этого сайта реализована через Grid - очень удобно и не затрачивается много ресурсов.
+    </div>
+  </div>
+
+  <div class="slider" style="justify-self: center;">
+    <div class="simage">
+      <img src="images/backend.jpg" alt="" id="slideImg">
+    </div>
+    <div class="stext">
+      Back-end пишу на PHP и работаю с реляционными базами данных MySQL. Времена меняются вместе с трендами в разработке, поэтому на данный момент Python Django у меня в процессе изучения.
+    </div>
+  </div>
+</div>
+
+<div class="slide-box">
+  <div class="slider">
+    <div class="inner">
+      <div class="simage">
+        <img src="images/edit.jpg" alt="" id="slideImg">
+      </div>
+      <div class="stext">
+        Умею пользоваться Photoshop, в основном для обыденных целей. Иногда редактирую видео в Davinci Resolve.
+      </div>
+    </div>
+  </div>
+  <div class="slider">
+      <div class="inner">
+        <div class="stext">
+          Начинаю заниматься трехмерным моделированием в Autodesk 3Ds Max - строю себе виллу на берегу моря. Хоть где-то она у меня будет.
+        </div>
+        <div class="simage" style="padding-bottom: 2.5vw;">
+          <img src="images/3d_work.jpg" alt="" id="slideImg">
+        </div>
+      </div>
+  </div>
+</div>
+<br><br><br>
+</div>
+
+<h1 style="text-align: center; font-size: 50px;">Интересные факты</h1>
+<div class="facts">
+  <div class="facts-item">
+    <ol class="ball">
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+    </ol>
+  </div>
+  <div class="facts-item">
+    <ol class="ball">
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+    </ol>
+  </div>
+  <div class="facts-item">
+    <ol class="ball">
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+      <li><a href="#">Элемент списка</a></li>
+    </ol>
+  </div>
+</div>
+
+
+  </body>
+</html>
