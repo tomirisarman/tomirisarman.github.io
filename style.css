@@ -94,7 +94,7 @@ border-radius: 50%;
 .topnav{
   background-color: #1c2743;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 80px;
 }
 .topnav .item a{
