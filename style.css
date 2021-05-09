@@ -350,3 +350,11 @@ z-index: 2;
 transition: .4s ease-in-out;
 }
 .ball li:hover:before {left: -20px;}
+
+.footer{
+  background-color: #0c2333;
+  color: #fff;
+  text-align: center;
+  line-height: 2rem;
+  padding: 2vw;
+}
