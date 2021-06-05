@@ -3,6 +3,9 @@ body{
   font-weight: 400;
   overflow-x: hidden;
 }
+section{
+  width: 100vw;
+}
 .bg-dark{
   background-color: #000 !important;
 }
@@ -221,7 +224,7 @@ header .nav-item:hover{
     min-width: 120px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
     .timeline .event:before {
         left: 0px;
         text-align: left;
