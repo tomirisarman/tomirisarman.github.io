@@ -1,0 +1,268 @@
+body{
+  font-family: "Montserrat" !important;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+.bg-dark{
+  background-color: #000 !important;
+}
+.h700{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.h600{
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.h500{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.box{
+  margin: 0 150px;
+  height: 100px;
+  background: gray;
+}
+
+.decor-square{
+  position: fixed;
+width: 400px;
+height: 400px;
+left: 100px;
+top: 100px;
+z-index: -100;
+
+border: 7px solid #C9C9C9;
+box-sizing: border-box;
+transform: rotate(-24deg);
+}
+
+.square-two{
+  position: fixed;
+width: 300px;
+height: 300px;
+left: 713.02px;
+top: 573px;
+z-index: -100;
+border: 7px solid #C9C9C9;
+box-sizing: border-box;
+transform: rotate(24deg);
+}
+
+.square-three{
+  position: fixed;
+width: 100px;
+height: 100px;
+left: 698.13px;
+top: 285.93px;
+z-index: -100;
+border: 7px solid #C9C9C9;
+box-sizing: border-box;
+transform: rotate(43deg);
+}
+
+.circle-one{
+  position: fixed;
+width: 50px;
+height: 50px;
+left: 506px;
+top: 100.27px;
+z-index: -100;
+border: 7px solid #C9C9C9;
+box-sizing: border-box;
+border-radius: 50px;
+transform: rotate(-46.5deg);
+}
+.circle-two{
+  position: fixed;
+  width: 102.15px;
+  height: 104.34px;
+  left: 371px;
+  top: 500.09px;
+  z-index: -100;
+  border: 7px solid #C9C9C9;
+  box-sizing: border-box;
+  border-radius: 50px;
+  transform: rotate(-46.5deg);
+
+}
+.down-cv{
+  background-color: #000;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.down-cv:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+#skills, #contacts{
+  background: linear-gradient(180deg, #5A5A5A 0%, rgba(255, 255, 255, 0) 100%), #000000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .h700 {
+    font-size: 3rem;
+  }
+  #photo{
+    width: 100vw !important;
+    margin: 0 !important;
+  }
+}
+
+ul .dashed {
+  list-style-type: none;
+}
+
+ul .dashed li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -20px;
+}
+
+.exp-card{
+  border-width: medium;
+  border-radius: 20px;
+}
+
+#contacts a{
+ color: #fff;
+}
+#exp a{
+  color: #000;
+}
+header .nav-item:hover{
+  border-bottom: 1px solid #c9c9c9;
+  transition: 0.5s;
+}
+.navbar-nav li.active > a {
+	color: #fff !important;
+}
+
+/* timeline */
+.timeline {
+    border-left: 3px solid #000;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    /* background: rgba(114, 124, 245, 0.09); */
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 50%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.timeline .event:hover{
+  background-color: #f6f2f2;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -350px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px #000;
+    box-shadow: 0 0 0 3px #000;
+    left: -55.8px;
+    background: #fff;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    /* border-right: 3px solid #727cf5; */
+    border-right: 3px solid #000;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
