@@ -224,7 +224,7 @@ header .nav-item:hover{
     min-width: 120px;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     .timeline .event:before {
         left: 0px;
         text-align: left;
