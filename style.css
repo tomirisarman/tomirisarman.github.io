@@ -138,7 +138,7 @@ ul .dashed li:before {
 #contacts a{
  color: #fff;
 }
-#exp a{
+#exp a, #skills a{
   color: #000;
 }
 header .nav-item:hover{
